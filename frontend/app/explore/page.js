@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import RecipePage1 from "../component/RecipePage";
-import Navbar from "../component/navbar";
+import RecipePage1 from "@/component/RecipePage";
+import Navbar from "@/component/navbar";
 const recipes = [
   { id: 1, title: "Spaghetti Carbonara", category: "Pasta", cuisine: "Italian", image: "/indian.jpg", description: "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper." },
   { id: 2, title: "Avocado Toast", category: "Breakfast", cuisine: "American", image: "/amarican.jpg", description: "A healthy and delicious toast topped with mashed avocado and seasonings." },

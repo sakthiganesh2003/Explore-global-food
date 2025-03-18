@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import RecipePage1 from "../component/RecipePage";
-import ChefReview from "../component/ChefReview";
-import Navbar from "../component/navbar";
+import RecipePage1 from "@/component/RecipePage";
+import ChefReview from "@/component/ChefReview";
+import Navbar from "@/component/navbar";
 const recipes = [
   { 
     id: 1, 

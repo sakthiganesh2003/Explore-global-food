@@ -41,10 +41,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-transprant ">
           <div className="flex flex-col items-center py-3">
-            <Link href="/" className="text-white py-2">Home</Link>
-            <Link href="/explore" className="text-white py-2">Explore</Link>
-            <Link href="/chef" className="text-white py-2">Chef dish</Link>
-            <Link href="/maid" className="text-white py-2">Maid Booking</Link>
+            <Link href="/" className="text-white hover:border-b-2 border-white py-2">Home</Link>
+            <Link href="/explore" className="text-white hover:border-b-2 border-white  py-2">Explore</Link>
+            <Link href="/chef" className="text-white hover:border-b-2 border-white py-2">Chef dish</Link>
+            <Link href="/maid" className="text-white hover:border-b-2 border-white py-2">Maid Booking</Link>
             <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
               Sign In
             </button>

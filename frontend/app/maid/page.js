@@ -1,6 +1,6 @@
-import navbar from "@/app/component/navbar";
-import Navbar from '@/app/component/navbar';
-import StepProgress from "../component/StepProgress";
+
+import Navbar from '@/component/navbar';
+import StepProgress from "@/component/StepProgress";
 
 export default function Maid() {
   return (
